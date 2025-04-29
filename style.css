@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  background-color: #4CAF50; /* You can change the color here */
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.bio {
+  margin: 30px 0;
+}
+
+.bio-img {
+  width: 600px;
+  height: 250px;
+  border-radius: 100%;
+  margin-bottom: 120px;
+}
+
+.bio h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.bio p {
+  font-size: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #4CAF50; /* Link color */
+  font-size: 1.2rem;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #555;
+}
+.logo {
+  width: 150px;  /* Adjust the size as needed */
+  height: auto;  /* Maintain the aspect ratio */
+}
+
